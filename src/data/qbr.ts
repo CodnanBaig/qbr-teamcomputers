@@ -27,12 +27,6 @@ export const qbrData: QBRData = {
             '"Prove yourself to yourself."',
           ],
           quote: '"Don\'t be a philosopher or a teacher without being rich" or "First become rich, then become a philosopher," - SRK',
-          subBullets: [
-            {
-              label: "A reminder inspired by Shah Rukh Khan's quote:",
-              items: [],
-            },
-          ],
         },
         {
           title: "",
