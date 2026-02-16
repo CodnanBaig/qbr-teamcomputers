@@ -6,11 +6,11 @@ export const qbrData: QBRData = {
       id: 1,
       title: "TDE-BMG  – Day 1",
       subtitle: "Keynote by Jatin Sawhney",
-      venue: "Tattva Hills",
+      venue: "Tatva Hills",
       sections: [
         {
           title: "1. Opening & Context",
-          body: "Day 1 of the Business Review began with high enthusiasm as the team arrived at Tattva Hills around 2 PM after an energetic morning journey. The positive momentum continued over lunch, setting the stage for an impactful and thought-provoking keynote session by Jatin Sir.",
+          body: "Day 1 of the Business Review began with high enthusiasm as the team arrived at Tatva Hills around 2 PM after an energetic morning journey. The positive momentum continued over lunch, setting the stage for an impactful and thought-provoking keynote session by Jatin Sir.",
           quote: "“1000 Cr – Think Big!”",
           bullets: [
             "This set the tone for the entire day — pushing everyone to move beyond incremental thinking and embrace transformational growth.",
@@ -174,7 +174,7 @@ export const qbrData: QBRData = {
         },
         {
           title: "Conclusion",
-          body: "The keynote at Tattva Hills was a mindset transformation session. It reinforced that scalable success requires:",
+          body: "The keynote at Tatva Hills was a mindset transformation session. It reinforced that scalable success requires:",
           bullets: [
             "Clarity in fundamentals",
             "Aggressive yet structured funnel building",
@@ -194,7 +194,7 @@ export const qbrData: QBRData = {
     {
       id: 2,
       title: "Day 2 – From Strategy to Structured Execution",
-      venue: "Tattva Hills",
+      venue: "Tatva Hills",
       sections: [
         {
           title: "",
@@ -352,11 +352,11 @@ export const qbrData: QBRData = {
     {
       id: 3,
       title: "Day 3 – Consolidation, Capability & Commitment",
-      venue: "Tattva Hills",
+      venue: "Tatva Hills",
       sections: [
         {
           title: "",
-          body: "Day 3 began on a refreshing note — an amazing morning view at Tattva Hills followed by breakfast with the team. The energy was lighter but purposeful. The final day focused on problem-solving, defining differentiators, identifying improvement areas, and converting discussions into clear action plans.",
+          body: "Day 3 began on a refreshing note — an amazing morning view at Tatva Hills followed by breakfast with the team. The energy was lighter but purposeful. The final day focused on problem-solving, defining differentiators, identifying improvement areas, and converting discussions into clear action plans.",
         },
         {
           title: "Interactive Problem-Solving Session",
@@ -520,7 +520,7 @@ export const qbrData: QBRData = {
             "How AI is transforming industries daily",
             "The need to become \"A-category\" professionals",
             "Continuous learning and adaptability",
-            "Development vision around Tattva Hills",
+            "Development vision around Tatva Hills",
           ],
         },
         {

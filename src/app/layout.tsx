@@ -22,7 +22,7 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   title: "TDE-BMG",
-  description: "TDE-BMG – Tattva Hills",
+  description: "TDE-BMG – Tatva Hills",
 };
 
 export default function RootLayout({

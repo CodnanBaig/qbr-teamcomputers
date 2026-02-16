@@ -24,7 +24,7 @@ export default function Hero() {
         <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-bold mb-4 drop-shadow-lg">
           TDE-BMG 2026
         </h1>
-        <p className="text-xl md:text-2xl text-gray-100 mb-2 drop-shadow-md">Tattva Hills</p>
+        <p className="text-xl md:text-2xl text-gray-100 mb-2 drop-shadow-md">Tatva Hills</p>
         <p className="text-sm md:text-base text-gray-200 uppercase tracking-widest drop-shadow-md mb-4">
           Business Management & Growth Review
         </p>
