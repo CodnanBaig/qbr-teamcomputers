@@ -41,7 +41,7 @@ const pages = buildPages();
 
 export default function Home() {
   return (
-    <main className="h-screen w-screen overflow-hidden flex items-center justify-center bg-[#e0d9ce]">
+    <main className="h-screen w-screen overflow-hidden flex items-center justify-center bg-[#e0d9ce] touch-none">
       <Book pages={pages} />
     </main>
   );

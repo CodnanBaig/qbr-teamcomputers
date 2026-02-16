@@ -9,7 +9,16 @@
   --ink-muted: #5c5652;
 }
 
-html,
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
 body {
   height: 100%;
   margin: 0;
@@ -17,6 +26,8 @@ body {
   overflow: hidden;
   background: #e0d9ce;
   color: var(--ink);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 /* Paper texture overlay (subtle diary feel) */

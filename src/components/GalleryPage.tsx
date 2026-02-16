@@ -10,7 +10,7 @@ import {
   day3VideoFiles,
 } from "@/data/gallery";
 
-const PAGE_PADDING = "p-4 sm:p-6 md:p-8";
+const PAGE_PADDING = "p-3 sm:p-4 md:p-6 lg:p-8";
 
 function mediaSrc(folder: "day1" | "day2" | "day3", filename: string) {
   return `/qbr/${folder}/${encodeURIComponent(filename)}`;
@@ -29,11 +29,11 @@ function ImageGrid({
 
   return (
     <div className="mb-8 last:mb-0">
-      <h2 className="font-serif text-base sm:text-lg font-semibold text-ink mb-2 sm:mb-4 border-b border-paper-dark/40 pb-1.5 sm:pb-2">
+      <h2 className="font-serif text-sm sm:text-base md:text-lg font-semibold text-ink mb-1.5 sm:mb-2 md:mb-4 border-b border-paper-dark/40 pb-1 sm:pb-1.5 md:pb-2">
         {title}
       </h2>
       {hasImages ? (
-        <div className="grid grid-cols-2 gap-2 sm:gap-3">
+        <div className="grid grid-cols-2 gap-1.5 sm:gap-2 md:gap-3">
           {files.map((file, i) => (
             <div
               key={i}
@@ -80,10 +80,10 @@ function VideoGrid({
 
   return (
     <div className="mb-6 last:mb-0">
-      <h3 className="font-serif text-sm sm:text-base font-semibold text-ink mb-2 border-b border-paper-dark/30 pb-1">
+      <h3 className="font-serif text-xs sm:text-sm md:text-base font-semibold text-ink mb-1.5 sm:mb-2 border-b border-paper-dark/30 pb-0.5 sm:pb-1">
         {title}
       </h3>
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 sm:gap-3">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-1.5 sm:gap-2 md:gap-3">
         {files.map((file, i) => (
           <div
             key={i}
@@ -112,7 +112,7 @@ export default function GalleryPage() {
         <p className="font-accent text-[10px] sm:text-xs uppercase tracking-widest text-ink-muted">
           Memories
         </p>
-        <h1 className="font-serif text-base sm:text-lg md:text-xl font-semibold text-ink mt-0.5 sm:mt-1">
+        <h1 className="font-serif text-sm sm:text-base md:text-lg lg:text-xl font-semibold text-ink mt-0.5 sm:mt-1">
           Day 1, Day 2 &amp; Day 3
         </h1>
       </div>

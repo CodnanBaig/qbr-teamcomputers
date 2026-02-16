@@ -3,7 +3,11 @@
 import { useState, useEffect } from "react";
 
 export function useWindowSize() {
-  const [size, setSize] = useState({ width: 800, height: 600 });
+  // Use mobile-friendly defaults to avoid layout shift
+  const [size, setSize] = useState({ 
+    width: typeof window !== 'undefined' ? window.innerWidth : 375, 
+    height: typeof window !== 'undefined' ? window.innerHeight : 667 
+  });
 
   useEffect(() => {
     function update() {
@@ -11,7 +15,11 @@ export function useWindowSize() {
     }
     update();
     window.addEventListener("resize", update);
-    return () => window.removeEventListener("resize", update);
+    window.addEventListener("orientationchange", update);
+    return () => {
+      window.removeEventListener("resize", update);
+      window.removeEventListener("orientationchange", update);
+    };
   }, []);
 
   return size;

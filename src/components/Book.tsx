@@ -22,6 +22,7 @@ const PAGE_ASPECT_PORTRAIT = 2 / 3;
 /** Spread = 2 pages side by side, so spread width = 2 * pageWidth */
 const SPREAD_WIDTH_RATIO = 2 * PAGE_ASPECT;
 const MOBILE_BREAKPOINT = 768;
+const SMALL_MOBILE_BREAKPOINT = 480;
 
 type PageDimensions = { width: number; height: number };
 
@@ -71,28 +72,31 @@ function computePageDimensions(
   isMobile: boolean,
   isPortrait: boolean
 ): PageDimensions {
-  const padding = isMobile ? 16 : 8;
-  const maxW = windowWidth - padding * 2;
-  const maxH = windowHeight - padding * 2;
+  const isSmallMobile = windowWidth < SMALL_MOBILE_BREAKPOINT;
+  const padding = isSmallMobile ? 8 : isMobile ? 12 : 8;
+  const maxW = Math.max(windowWidth - padding * 2, 280); // Minimum 280px width
+  const maxH = Math.max(windowHeight - padding * 2, 400); // Minimum 400px height
 
   if (isMobile && isPortrait) {
     // Mobile portrait: fill height, use portrait aspect
     const height = maxH;
     const width = PAGE_ASPECT_PORTRAIT * height;
-    // Ensure width fits
-    const finalWidth = Math.min(width, maxW);
+    // Ensure width fits and meets minimum
+    const finalWidth = Math.max(Math.min(width, maxW), 200);
     const finalHeight = finalWidth / PAGE_ASPECT_PORTRAIT;
     return {
       width: Math.round(finalWidth),
-      height: Math.round(finalHeight),
+      height: Math.round(Math.min(finalHeight, maxH)),
     };
   } else if (isMobile) {
-    // Mobile landscape: fit width first (current logic)
+    // Mobile landscape: fit width first, ensure readable size
     const height = Math.min(maxH, maxW / SPREAD_WIDTH_RATIO);
-    const width = PAGE_ASPECT * height;
+    const minHeight = isSmallMobile ? 300 : 350;
+    const finalHeight = Math.max(height, minHeight);
+    const width = PAGE_ASPECT * finalHeight;
     return {
-      width: Math.round(width),
-      height: Math.round(height),
+      width: Math.round(Math.min(width, maxW)),
+      height: Math.round(finalHeight),
     };
   } else {
     // Desktop: fill height first
@@ -159,7 +163,11 @@ export default function Book({ pages }: BookProps) {
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.6, ease: "easeOut" }}
         className="flex items-center justify-center w-full h-full"
-        style={{ padding: isMobile ? '8px' : '4px' }}
+        style={{ 
+          padding: winW < SMALL_MOBILE_BREAKPOINT ? '4px' : isMobile ? '8px' : '4px',
+          minHeight: '100vh',
+          minWidth: '100vw'
+        }}
       >
         <div
           className="drop-shadow-2xl"
@@ -185,10 +193,10 @@ export default function Book({ pages }: BookProps) {
             startZIndex={0}
             autoSize={true}
             maxShadowOpacity={0.5}
-            mobileScrollSupport={false}
+            mobileScrollSupport={true}
             clickEventForward={true}
             useMouseEvents={true}
-            swipeDistance={24}
+            swipeDistance={isMobile ? 20 : 24}
             showPageCorners={true}
             disableFlipByClick={false}
             className=""
