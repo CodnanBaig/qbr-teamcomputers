@@ -5,11 +5,11 @@ import Image from "next/image";
 export default function Hero() {
   return (
     <div className="relative w-full h-[60vh] md:h-[70vh] overflow-hidden">
-      {/* Mountain Background Image */}
+      {/* Cover Background Image */}
       <div className="absolute inset-0">
         <Image
-          src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
-          alt="Mountain landscape"
+          src="/WhatsApp Image 2026-02-16 at 16.08.49.jpeg"
+          alt="TDE-BMG Team Photo"
           fill
           className="object-cover"
           priority
