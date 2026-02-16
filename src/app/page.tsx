@@ -4,6 +4,7 @@ import { useState } from "react";
 import Hero from "@/components/Hero";
 import Tabs from "@/components/Tabs";
 import DaySection from "@/components/DaySection";
+import ConsolidatedActionPoints from "@/components/ConsolidatedActionPoints";
 import { qbrData } from "@/data/qbr";
 import {
   day1ImageFiles,
@@ -49,6 +50,8 @@ export default function Home() {
           videos={day3VideoFiles}
         />
       )}
+
+      {activeTab === 4 && <ConsolidatedActionPoints />}
     </main>
   );
 }
