@@ -22,7 +22,7 @@ export default function Hero() {
       {/* Content */}
       <div className="relative z-10 h-full flex flex-col items-center justify-center text-white px-4 sm:px-6 lg:px-8 text-center">
         <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-bold mb-4 drop-shadow-lg">
-          TDE-BMG
+          TDE-BMG 2026
         </h1>
         <p className="text-xl md:text-2xl text-gray-100 mb-2 drop-shadow-md">Tattva Hills</p>
         <p className="text-sm md:text-base text-gray-200 uppercase tracking-widest drop-shadow-md">
