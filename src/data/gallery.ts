@@ -18,7 +18,8 @@ export const day1VideoFiles: string[] = [
 export const day2ImageFiles: string[] = [
   "WhatsApp Image 2026-02-16 at 14.26.07 (1).jpeg",
   "WhatsApp Image 2026-02-16 at 14.26.07 (2).jpeg",
-  "WhatsApp Image 2026-02-16 at 14.26.07.jpeg"
+  "WhatsApp Image 2026-02-16 at 14.26.07.jpeg",
+  "WhatsApp Image 2026-02-16 at 14.56.15.jpeg"
 ];
 export const day2VideoFiles: string[] = [
   "WhatsApp Video 2026-02-16 at 14.26.07.mp4"
