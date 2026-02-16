@@ -25,8 +25,11 @@ export default function Hero() {
           TDE-BMG 2026
         </h1>
         <p className="text-xl md:text-2xl text-gray-100 mb-2 drop-shadow-md">Tattva Hills</p>
-        <p className="text-sm md:text-base text-gray-200 uppercase tracking-widest drop-shadow-md">
+        <p className="text-sm md:text-base text-gray-200 uppercase tracking-widest drop-shadow-md mb-4">
           Business Management & Growth Review
+        </p>
+        <p className="text-lg md:text-xl text-white font-semibold italic drop-shadow-lg">
+          Sky Is The Limit
         </p>
       </div>
     </div>
