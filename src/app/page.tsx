@@ -1,48 +1,54 @@
 "use client";
 
-import Book, { BookPage } from "@/components/Book";
-import CoverPage from "@/components/CoverPage";
-import PageContent from "@/components/PageContent";
-import GalleryPage from "@/components/GalleryPage";
+import { useState } from "react";
+import Hero from "@/components/Hero";
+import Tabs from "@/components/Tabs";
+import DaySection from "@/components/DaySection";
 import { qbrData } from "@/data/qbr";
-import { getSpreadSpecs, getSectionsForSpread } from "@/lib/spreads";
-
-function buildPages() {
-  const specs = getSpreadSpecs(qbrData);
-  const day1 = qbrData.days[0];
-  const day2 = qbrData.days[1];
-
-  const contentPages = specs.map((spec) => {
-    const sections = getSectionsForSpread(qbrData, spec);
-    const day = qbrData.days[spec.dayIndex];
-    return (
-      <BookPage key={spec.label}>
-        <PageContent
-          sections={sections}
-          dayLabel={spec.label}
-          venue={day.venue}
-        />
-      </BookPage>
-    );
-  });
-
-  return [
-    <BookPage key="cover">
-      <CoverPage />
-    </BookPage>,
-    ...contentPages,
-    <BookPage key="gallery">
-      <GalleryPage />
-    </BookPage>,
-  ];
-}
-
-const pages = buildPages();
+import {
+  day1ImageFiles,
+  day1VideoFiles,
+  day2ImageFiles,
+  day2VideoFiles,
+  day3ImageFiles,
+  day3VideoFiles,
+} from "@/data/gallery";
 
 export default function Home() {
+  const [activeTab, setActiveTab] = useState(1);
+
+  const day1 = qbrData.days[0];
+  const day2 = qbrData.days[1];
+  const day3 = qbrData.days[2];
+
   return (
-    <main className="h-screen w-screen overflow-hidden flex items-center justify-center bg-[#e0d9ce] touch-none">
-      <Book pages={pages} />
+    <main className="min-h-screen bg-gray-50">
+      <Hero />
+      <Tabs activeTab={activeTab} onTabChange={setActiveTab} />
+
+      {activeTab === 1 && (
+        <DaySection
+          day={day1}
+          images={day1ImageFiles}
+          videos={day1VideoFiles}
+        />
+      )}
+
+      {activeTab === 2 && (
+        <DaySection
+          day={day2}
+          images={day2ImageFiles}
+          videos={day2VideoFiles}
+        />
+      )}
+
+      {activeTab === 3 && (
+        <DaySection
+          day={day3}
+          images={day3ImageFiles}
+          videos={day3VideoFiles}
+        />
+      )}
     </main>
   );
 }

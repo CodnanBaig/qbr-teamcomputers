@@ -4,21 +4,21 @@ export const qbrData: QBRData = {
   days: [
     {
       id: 1,
-      title: "Quarterly Business Review – Day 1",
+      title: "TDE-BMG  – Day 1",
       subtitle: "Keynote by Jatin Sawhney",
       venue: "Tattva Hills",
       sections: [
         {
           title: "1. Opening & Context",
-          body: "Day 1 of the Quarterly Business Review began with high enthusiasm as the team arrived at Tattva Hills around 2 PM after an energetic morning journey. The positive momentum continued over lunch, setting the stage for an impactful and thought-provoking keynote session by Jatin Sir. He opened the session with a bold and powerful vision:",
-          quote: "1000 Cr – Think Big!",
+          body: "Day 1 of the Business Review began with high enthusiasm as the team arrived at Tattva Hills around 2 PM after an energetic morning journey. The positive momentum continued over lunch, setting the stage for an impactful and thought-provoking keynote session by Jatin Sir.",
+          quote: "“1000 Cr – Think Big!”",
           bullets: [
             "This set the tone for the entire day — pushing everyone to move beyond incremental thinking and embrace transformational growth.",
           ],
         },
         {
-          title: "2. Vision & Mindset Shift",
-          body: "The core theme of the session was long-term thinking over short-term gains. Key reflections included:",
+          title: "",
+          body: "The core theme of the session was long-term thinking over short-term gains.",
           bullets: [
             "Once a customer, always a customer – Customer Lifetime Value (CLV) must be the focus.",
             "Customer engagement should be need-led, not product-led.",
@@ -39,7 +39,7 @@ export const qbrData: QBRData = {
           body: "The session emphasized that social media may show everyone as successful, but real success is measurable in EBITDA, MRR, and sustainable growth.",
         },
         {
-          title: "3. Financial Direction & Targets",
+          title: "",
           body: "Clear financial expectations were outlined:",
           bullets: [
             "2 Cr EBITDA – MRR NOW",
@@ -64,9 +64,10 @@ export const qbrData: QBRData = {
           ],
         },
         {
-          title: "4. Market Expansion & Customer Strategy",
-          body: "Specific growth goals were defined. In the next 10 months:",
+          title: "",
+          body: "Specific growth goals were defined:",
           bullets: [
+            "In the next 10 months:",
             "50–60 unique customers in Security",
             "Current base: 32 unique customers",
             "Analytics: 32 unique accounts",
@@ -89,7 +90,7 @@ export const qbrData: QBRData = {
           body: "The emphasis was on expanding reach while deepening value per account.",
         },
         {
-          title: "5. X–Y Growth Framework",
+          title: "X–Y Growth Framework",
           body: "Growth comes from:",
           bullets: [
             "Increasing value per unit",
@@ -97,19 +98,30 @@ export const qbrData: QBRData = {
             "Strengthening both simultaneously",
           ],
           quote: "Outperform competition by either selling more value, reaching more markets, or doing both better than anyone else.",
-          subBullets: [{ label: "The idea was simple:", items: [] }],
+          subBullets: [
+            {
+              label: "The idea was simple:",
+              items: [],
+            },
+          ],
         },
         {
-          title: "6. Funnel Discipline & Sales Execution",
+          title: "Funnel Discipline & Sales Execution",
           body: "A strong and healthy pipeline was positioned as non-negotiable.",
           subBullets: [
             {
               label: "Key Funnel Principles:",
               items: [
                 "Funnel size must be 10X",
-                "Understand: Leading indicators (activities, meetings, proposals), Lagging indicators (revenue, closures)",
-                "OEM contribution: 30% of OEM funnel should become our funnel",
-                "Strong OEM mapping and close collaboration: OEM mapping framework, KD – Fortinet alignment, OEM connect with Sunil, Work closely with OEM stakeholders",
+                "Understand:",
+                "Leading indicators",
+                "Lagging indicators",
+                "OEM contribution:",
+                "30% of OEM funnel should become our funnel",
+                "Strong OEM mapping and close collaboration:",
+                "OEM mapping framework",
+                "OEM connect with Sunil",
+                "Work closely with OEM stakeholders",
               ],
             },
             {
@@ -124,9 +136,10 @@ export const qbrData: QBRData = {
           ],
         },
         {
-          title: "7. OEM & Strategic Alignment",
-          body: "OEM collaboration was highlighted as a growth multiplier. Key directions:",
+          title: "OEM & Strategic Alignment",
+          body: "OEM collaboration was highlighted as a growth multiplier.",
           bullets: [
+            "Key directions:",
             "Map OEM stakeholders clearly",
             "Align with OEM teams for joint account strategy",
             "Ensure OEM-driven opportunities translate into our revenue",
@@ -138,7 +151,7 @@ export const qbrData: QBRData = {
           body: "Strategic mapping with OEMs was identified as critical for scale.",
         },
         {
-          title: "8. Competitive & Communication Excellence",
+          title: "",
           body: "To scale sustainably:",
           bullets: [
             "Differentiate clearly",
@@ -191,19 +204,30 @@ export const qbrData: QBRData = {
       sections: [
         {
           title: "",
-          body: "Day 2 began with focused discussions and team presentations, shifting the energy from vision to execution. If Day 1 was about thinking big, Day 2 was about doing it right. The morning opened with structured conversations around strengthening our position within the Security Universe. The central theme quickly emerged — clarity in positioning, discipline in execution, and control over our pipeline.",
+          body: "Day 2 began with focused discussions and team presentations, shifting the energy from vision to execution. If Day 1 was about thinking big, Day 2 was about doing it right.",
+        },
+        {
+          title: "",
+          body: "The morning opened with structured conversations around strengthening our position within the Security Universe. The central theme quickly emerged — clarity in positioning, discipline in execution, and control over our pipeline.",
         },
         {
           title: 'Defining "Why Us?"',
-          body: "One of the most important discussions of the day revolved around a simple but powerful question: Why should customers choose us? The team emphasized:",
+          body: "One of the most important discussions of the day revolved around a simple but powerful question:",
           bullets: [
+            "Why should customers choose us?",
+            "The team emphasized:",
             "Strong differentiation and sharper articulation of our USP",
             "Positioning ourselves as a strategic partner, not just a vendor",
             "Using case studies and real success stories to build credibility",
             "Simplifying complex security discussions through storytelling and analogies",
           ],
           quote: '"CONTROL" — ensuring customers feel secure, empowered, and in command of their digital environment.',
-          subBullets: [{ label: "A key word echoed throughout the room:", items: [] }],
+          subBullets: [
+            {
+              label: "A key word echoed throughout the room:",
+              items: [],
+            },
+          ],
         },
         {
           title: "Understanding Market Growth Drivers (Shahid)",
@@ -217,12 +241,18 @@ export const qbrData: QBRData = {
             "Cloud migration trends",
           ],
           quote: "Security conversations must align with real business triggers. We must connect our offerings directly to these growth drivers.",
-          subBullets: [{ label: "The takeaway was clear:", items: [] }],
+          subBullets: [
+            {
+              label: "The takeaway was clear:",
+              items: [],
+            },
+          ],
         },
         {
           title: "Strengthening Account Management & Execution",
-          body: "The role of the Account Manager was redefined — not as a deal follower, but as a security conversation driver. Key discussions included:",
+          body: "The role of the Account Manager was redefined — not as a deal follower, but as a security conversation driver.",
           bullets: [
+            "Key discussions included:",
             "Sales account mapping and stakeholder profiling",
             "Identifying which services are delivered internally vs outsourced",
             "Skill mapping and capability alignment",
@@ -235,7 +265,7 @@ export const qbrData: QBRData = {
           body: "The focus was on preparation, precision, and professional execution before entering customer discussions.",
         },
         {
-          title: "Operational Discipline (Anant / Dhruv)",
+          title: "Presentation by- (Anant / Dhruv)",
           body: "Execution mechanisms were discussed to ensure predictability:",
           bullets: [
             "Blitz Days for focused outreach",
@@ -250,8 +280,9 @@ export const qbrData: QBRData = {
         },
         {
           title: "OEM Engagement & Strategic Alignment (Aishwarya)",
-          body: "OEM collaboration was positioned as a major growth lever. Initiatives included:",
+          body: "OEM collaboration was positioned as a major growth lever.",
           bullets: [
+            "Initiatives included:",
             "OEM Days (including engagement dinner at Indy with the Netskope team)",
             "Capturing OEM Account Manager details",
             "TG List – OEM profiling across the universe",
@@ -266,7 +297,7 @@ export const qbrData: QBRData = {
           title: "Target Market Focus (Shrishti)",
           body: "A structured segmentation approach was presented:",
           bullets: [
-            "Existing TCPL customers",
+            "Existing TCPL customers universe",
             "Indian companies with minimum 1000 employees",
             "BFSI (regulatory-driven sector)",
             "Digital natives & funded startups",
@@ -299,7 +330,7 @@ export const qbrData: QBRData = {
         {
           title: "Action Points",
           bullets: [
-            "Define and standardize the \"Why Us\" narrative for all sales teams",
+            'Define and standardize the "Why Us" narrative for all sales teams',
             "Build and circulate updated case studies",
             "Implement structured sales account mapping across priority accounts",
             "Maintain minimum 90-day funnel visibility",
@@ -308,12 +339,18 @@ export const qbrData: QBRData = {
             "Align targeting with defined focus segments (BFSI, 1000+ employee companies, Startups, PSU/Gov)",
             "Drive storytelling-based sales training",
             "Strengthen AI-focused social media visibility",
-            "Launch and maintain \"Know Your Partner\" monthly newsletter",
+            'Launch and maintain "Know Your Partner" monthly newsletter',
           ],
         },
         {
           title: "Closing Reflection",
-          body: "The day moved from intense discussions to relaxed conversations over drinks and dinner. As presentations concluded, the atmosphere shifted from strategy to camaraderie. Conversations continued informally — about customers, competition, opportunities, and shared ambitions. It was not just about business metrics. It was about understanding each other's roles, challenges, and strengths. Day 2 strengthened both our execution framework and our team bond. A productive day of insights, alignment, and collaboration — ending with stronger clarity about the business and deeper connection within the team.",
+          body: "The day moved from intense discussions to relaxed conversations over drinks and dinner. As presentations concluded, the atmosphere shifted from strategy to camaraderie. Conversations continued informally — about customers, competition, opportunities, and shared ambitions.",
+          bullets: [
+            "It was not just about business metrics.",
+            "It was about understanding each other's roles, challenges, and strengths.",
+            "Day 2 strengthened both our execution framework and our team bond.",
+            "A productive day of insights, alignment, and collaboration — ending with stronger clarity about the business and deeper connection within the team.",
+          ],
           quote: "Structured execution. Clear positioning. Controlled growth.",
         },
       ],
@@ -329,7 +366,11 @@ export const qbrData: QBRData = {
         },
         {
           title: "Interactive Problem-Solving Session",
-          body: "The morning session centered around a fundamental question: Why Team Computers? – Differentiators (Security BU). A structured discussion defined how we stand apart in the market:",
+          body: "The morning session centered around a fundamental question:",
+          bullets: [
+            "Why Team Computers? – Differentiators (Security BU)",
+            "A structured discussion defined how we stand apart in the market:",
+          ],
           subBullets: [
             {
               label: "1. Pre-Sales & Technical Support",
@@ -448,7 +489,7 @@ export const qbrData: QBRData = {
           quote: '"KAM\'k You!"',
           subBullets: [
             {
-              label: "The closing slide resonated with everyone:",
+              label: "The closing slide resonated",
               items: [],
             },
           ],
@@ -472,7 +513,10 @@ export const qbrData: QBRData = {
         },
         {
           title: "Riverside Reflection",
-          body: "Post sessions, the team visited the riverside at Ramganga River. It was a moment to pause, reflect, and absorb three days of discussions — both business-focused and personal growth-oriented.",
+          body: "Post sessions, the team visited the riverside at Ramganga River.",
+          bullets: [
+            "It was a moment to pause, reflect, and absorb three days of discussions — both business-focused and personal growth-oriented.",
+          ],
         },
         {
           title: "Ranjan Sir's Session – AI & Personal Growth",
@@ -487,7 +531,10 @@ export const qbrData: QBRData = {
         },
         {
           title: "",
-          body: "A clear direction was set: All content and digital media initiatives should revolve around AI-driven narratives.",
+          body: "A clear direction was set:",
+          bullets: [
+            "All content and digital media initiatives should revolve around AI-driven narratives.",
+          ],
         },
         {
           title: "Closing Note – Jatin Sir",
@@ -509,12 +556,17 @@ export const qbrData: QBRData = {
         },
         {
           title: "Awards & Celebrations",
-          body: "The evening concluded with awards, celebrations, drinks, and dinner. Top performers were recognized across teams. From Marketing, Sagar Sir and I received the Exemplary Performance Award. The recognition reinforced performance culture and appreciation within the organization.",
+          body: "The evening concluded with awards, celebrations, drinks, and dinner.",
+          bullets: [
+            "Top performers were recognized across teams.",
+            "From Marketing, Sagar Sir and I received the Exemplary Performance Award.",
+            "The recognition reinforced performance culture and appreciation within the organization.",
+          ],
         },
         {
           title: "Takeaways from Day 3",
           bullets: [
-            "Clarity on \"Why Us\" strengthens positioning.",
+            'Clarity on "Why Us" strengthens positioning.',
             "Enterprise-focused strategy is critical for scale.",
             "Sales enablement and certifications are non-negotiable.",
             "SOC & MSSP are immediate strategic priorities.",
@@ -544,7 +596,13 @@ export const qbrData: QBRData = {
         },
         {
           title: "Conclusion",
-          body: "Day 3 brought closure with clarity. From problem-solving to strategy alignment, from AI evolution to customer recognition, the day tied together ambition with execution and culture with celebration. The BMG was not just a business review. It was a reinforcement of direction, discipline, differentiation, and teamwork. Three days of vision, structure, and bonding — ending on a high note of recognition and unity.",
+          body: "Day 3 brought closure with clarity.",
+          bullets: [
+            "From problem-solving to strategy alignment, from AI evolution to customer recognition, the day tied together ambition with execution and culture with celebration.",
+            "The BMG was not just a business review.",
+            "It was a reinforcement of direction, discipline, differentiation, and teamwork.",
+            "Three days of vision, structure, and bonding — ending on a high note of recognition and unity.",
+          ],
           quote: "Stronger Strategy. Sharper Execution. United Team.",
         },
       ],

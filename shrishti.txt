@@ -1,14 +1,14 @@
-Quarterly Business Review – Day 1
+TDE-BMG  – Day 1
+
 Keynote by Jatin Sawhney
 Venue: Tattva Hills
 
 1. Opening & Context
-Day 1 of the Quarterly Business Review began with high enthusiasm as the team arrived at Tattva Hills around 2 PM after an energetic morning journey. The positive momentum continued over lunch, setting the stage for an impactful and thought-provoking keynote session by Jatin Sir.
+Day 1 of the Business Review began with high enthusiasm as the team arrived at Tattva Hills around 2 PM after an energetic morning journey. The positive momentum continued over lunch, setting the stage for an impactful and thought-provoking keynote session by Jatin Sir.
 He opened the session with a bold and powerful vision:
 “1000 Cr – Think Big!”
 This set the tone for the entire day — pushing everyone to move beyond incremental thinking and embrace transformational growth.
 
-2. Vision & Mindset Shift
 The core theme of the session was long-term thinking over short-term gains.
 Key reflections included:
 Once a customer, always a customer – Customer Lifetime Value (CLV) must be the focus.
@@ -32,7 +32,7 @@ A reminder inspired by Shah Rukh Khan’s quote:
 
 The session emphasized that social media may show everyone as successful, but real success is measurable in EBITDA, MRR, and sustainable growth.
 
-3. Financial Direction & Targets
+
 Clear financial expectations were outlined:
 2 Cr EBITDA – MRR NOW
 
@@ -60,7 +60,7 @@ Converting strategy into measurable outcomes
 
 
 
-4. Market Expansion & Customer Strategy
+
 Specific growth goals were defined:
 In the next 10 months:
 
@@ -92,7 +92,7 @@ Speak the customer’s language and learn industry vocabulary
 
 The emphasis was on expanding reach while deepening value per account.
 
-5. X–Y Growth Framework
+ X–Y Growth Framework
 Growth comes from:
 Increasing value per unit
 
@@ -106,7 +106,7 @@ Strengthening both simultaneously
 The idea was simple:
  Outperform competition by either selling more value, reaching more markets, or doing both better than anyone else.
 
-6. Funnel Discipline & Sales Execution
+ Funnel Discipline & Sales Execution
 A strong and healthy pipeline was positioned as non-negotiable.
 Key Funnel Principles:
 Funnel size must be 10X
@@ -115,10 +115,10 @@ Funnel size must be 10X
 Understand:
 
 
-Leading indicators (activities, meetings, proposals)
+Leading indicators
 
 
-Lagging indicators (revenue, closures)
+Lagging indicators
 
 
 OEM contribution:
@@ -131,9 +131,6 @@ Strong OEM mapping and close collaboration:
 
 
 OEM mapping framework
-
-
-KD – Fortinet alignment
 
 
 OEM connect with Sunil
@@ -156,7 +153,7 @@ Focus on measurable activity tracking
 
 
 
-7. OEM & Strategic Alignment
+ OEM & Strategic Alignment
 OEM collaboration was highlighted as a growth multiplier.
 Key directions:
 Map OEM stakeholders clearly
@@ -173,7 +170,6 @@ Build deeper OEM partnerships, not transactional relationships
 
 Strategic mapping with OEMs was identified as critical for scale.
 
-8. Competitive & Communication Excellence
 To scale sustainably:
 Differentiate clearly
 
@@ -239,6 +235,25 @@ Consistent execution
 The message was clear:
  Big vision. Sharp execution. Measurable outcomes.
 Day 1 set a powerful foundation for the rest of the Quarterly Business Review, aligning the entire team toward disciplined growth and a 1000 Cr ambition.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -309,7 +324,7 @@ Pre-bid preparation and proper RFQ requirement summaries
 
 The focus was on preparation, precision, and professional execution before entering customer discussions.
 
-Operational Discipline (Anant / Dhruv)
+Presentation by- (Anant / Dhruv)
 Execution mechanisms were discussed to ensure predictability:
 Blitz Days for focused outreach
 
@@ -344,7 +359,7 @@ The direction was clear — combine OEM-led events with focused targeting of bot
 
 Target Market Focus (Shrishti)
 A structured segmentation approach was presented:
-Existing TCPL customers
+Existing TCPL customers universe
 
 
 Indian companies with minimum 1000 employees
@@ -439,6 +454,11 @@ Structured execution. Clear positioning. Controlled growth.
 
 
 
+
+
+
+
+
 Day 3 – Consolidation, Capability & Commitment
 
 Day 3 began on a refreshing note — an amazing morning view at Tattva Hills followed by breakfast with the team. The energy was lighter but purposeful. The final day focused on problem-solving, defining differentiators, identifying improvement areas, and converting discussions into clear action plans.
@@ -505,7 +525,7 @@ Increasing account share
 Strengthening CXO-level engagement
 TAT of 2 working days
 Need for a proper yearly numerical plan from Rajneesh
-The closing slide resonated with everyone:
+The closing slide resonated
 “KAM’k You!”
 
 Government Team Presentation – TDE & Security
@@ -586,7 +606,8 @@ Stronger Strategy. Sharper Execution. United Team.
 
 Here is the final consolidated version – Only Takeaways and Action Points (not day-wise):
 
-BMG – Consolidated Takeaways
+BMG – Consolidated Action Points and Takeaways
+BMG – Takeaways
 1000 Cr is a mindset shift — growth must be bold, long-term and scalable.
 Financial discipline (EBITDA, MRR, Run Rate, GM) defines real success.
 Reverse planning is essential to achieve revenue targets.
@@ -608,11 +629,11 @@ Recognition and performance culture strengthen motivation and ownership.
 Structured processes (RFP, pre-bid, account mapping) increase win probability.
 Controlled execution creates scalable, predictable business growth.
 
-BMG – Consolidated Action Points and Takeaways
 
 
 
-BMG – Consolidated Takeaways
+
+BMG- Takeaways
 1000 Cr is a mindset shift — growth must be bold, long-term and scalable.
 
 
@@ -737,3 +758,4 @@ Strengthen long-term acquisition and retention strategy.
 
 Final Direction:
 Think Big. Execute with Discipline. Control the Funnel. Lead with AI. Strengthen Relationships. Win as One Team.
+

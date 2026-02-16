@@ -1,6 +1,6 @@
 # Changelog
 
-All notable changes to the QBR Book project are documented here.
+All notable changes to the TDE-BMG Website project are documented here.
 
 ## [0.1.0] - 2025-02-16
 
@@ -47,3 +47,32 @@ All notable changes to the QBR Book project are documented here.
 
 - **v0.5.0-day3-content** – Added Day 3 content "Consolidation, Capability & Commitment" to `src/data/qbr.ts`. Includes: Interactive Problem-Solving Session (Why Team Computers differentiators), Improvement Areas (Security BU), KAM Presentation, Government Team Presentation, Riverside Reflection, Ranjan Sir's Session (AI & Personal Growth), Closing Note (Jatin Sir), Awards & Celebrations, Takeaways, Action Points, and Conclusion. Day 3 split into 3 spreads (sections 0–4, 5–9, 10–14) in `src/lib/spreads.ts`.
 - **v0.5.0-day3-gallery** – Updated `scripts/populate-gallery.ts` and `GalleryPage.tsx` to support Day 3 media. Script scans `public/qbr/day3/` folder (if exists), gallery page shows "Day 3 – Consolidation & Celebration" section. Gallery title updated to "Day 1, Day 2 & Day 3".
+
+## [0.9.0] - 2025-02-16
+
+### Changed
+
+- **v0.9.0-complete-redesign** – Complete redesign from flip-book concept to modern website. Removed all book components (`Book.tsx`, `CoverPage.tsx`, `GalleryPage.tsx`, `PageContent.tsx`, `spreads.ts`). Created new tab-based navigation system with `Tabs.tsx`, `Hero.tsx`, `DaySection.tsx`, `MediaGallery.tsx`, and `SectionBlock.tsx` components.
+- **v0.9.0-tab-navigation** – Implemented tab-based navigation (Day 1 / Day 2 / Day 3) replacing page-flipping. Each tab shows day content with side-by-side media gallery (desktop) or stacked layout (mobile).
+- **v0.9.0-media-integration** – Images and videos now integrated alongside each day's content instead of at the end. Media gallery positioned on the right side (desktop) or below content (mobile) with sticky positioning.
+- **v0.9.0-branding** – Changed branding from "QBR" / "Quarterly Business Review" to "TDE-BMG" throughout. Updated metadata, hero title, and Day 1 title. Body content remains unchanged (historical references to "Quarterly Business Review" preserved).
+- **v0.9.0-styling** – Removed book-specific styles (paper texture, page borders, flip animations). Added modern website layout with clean spacing, professional corporate aesthetic, and responsive breakpoints for mobile/tablet/desktop.
+- **v0.9.0-dependencies** – Removed `react-pageflip` and `framer-motion` dependencies. Simplified package.json to core Next.js dependencies only.
+
+### Removed
+
+- `src/components/Book.tsx` – Flip-book component
+- `src/components/CoverPage.tsx` – Cover page component
+- `src/components/GalleryPage.tsx` – Gallery page component
+- `src/components/PageContent.tsx` – Page content component (replaced by SectionBlock)
+- `src/lib/spreads.ts` – Spread mapping logic
+- `react-pageflip` dependency
+- `framer-motion` dependency
+
+### Added
+
+- `src/components/Tabs.tsx` – Tab navigation component
+- `src/components/Hero.tsx` – Hero header section
+- `src/components/DaySection.tsx` – Day content + media layout component
+- `src/components/MediaGallery.tsx` – Image/video grid component
+- `src/components/SectionBlock.tsx` – Individual section renderer component

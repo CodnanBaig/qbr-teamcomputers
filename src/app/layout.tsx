@@ -21,8 +21,8 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  title: "Quarterly Business Review",
-  description: "QBR – Tattva Hills",
+  title: "TDE-BMG",
+  description: "TDE-BMG – Tattva Hills",
 };
 
 export default function RootLayout({
