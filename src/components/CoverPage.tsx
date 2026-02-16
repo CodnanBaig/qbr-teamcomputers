@@ -14,7 +14,7 @@ export default function CoverPage() {
         <h1 className="font-serif text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-ink tracking-tight leading-tight px-2">
           Quarterly Business Review
         </h1>
-        <p className="font-serif text-sm sm:text-base md:text-lg lg:text-xl text-ink-muted px-2">Tattva Hills</p>
+        <p className="text-sm sm:text-base md:text-lg lg:text-xl text-ink-muted px-2">Tattva Hills</p>
         <motion.p
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}

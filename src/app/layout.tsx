@@ -32,7 +32,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${cormorant.variable} ${dmSans.variable}`}>
-      <body className="min-h-screen font-serif antialiased">{children}</body>
+      <body className="min-h-screen font-sans antialiased">{children}</body>
     </html>
   );
 }

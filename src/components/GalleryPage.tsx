@@ -52,12 +52,12 @@ function ImageGrid({
       ) : (
         <div className="grid grid-cols-2 gap-2 sm:gap-3">
           <div className="aspect-[4/3] rounded bg-paper-dark/40 border border-paper-dark/50 flex items-center justify-center">
-            <span className="font-serif text-[10px] sm:text-xs md:text-sm text-ink-muted text-center px-1.5 sm:px-2">
+            <span className="text-[10px] sm:text-xs md:text-sm text-ink-muted text-center px-1.5 sm:px-2">
               {folder === "day1" ? "Day 1 – Tattva Hills" : folder === "day2" ? "Day 2 – Sessions" : "Day 3 – Consolidation"}
             </span>
           </div>
           <div className="aspect-[4/3] rounded bg-paper-dark/40 border border-paper-dark/50 flex items-center justify-center">
-            <span className="font-serif text-[10px] sm:text-xs md:text-sm text-ink-muted text-center px-1.5 sm:px-2">
+            <span className="text-[10px] sm:text-xs md:text-sm text-ink-muted text-center px-1.5 sm:px-2">
               Add images in public/qbr/{folder}/
             </span>
           </div>

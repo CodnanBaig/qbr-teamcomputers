@@ -22,12 +22,12 @@ function SectionBlock({ section }: { section: Section }) {
         </h2>
       )}
       {section.body && (
-        <p className="font-serif text-[11px] sm:text-xs md:text-sm text-ink leading-relaxed mb-2 sm:mb-3">
+        <p className="text-[11px] sm:text-xs md:text-sm text-ink leading-relaxed mb-2 sm:mb-3">
           {section.body}
         </p>
       )}
       {section.quote && (
-        <blockquote className="font-serif text-[11px] sm:text-xs md:text-sm italic text-ink-muted border-l-2 border-ink-muted/50 pl-2 sm:pl-3 md:pl-4 my-1.5 sm:my-2 leading-relaxed">
+        <blockquote className="text-[11px] sm:text-xs md:text-sm italic text-ink-muted border-l-2 border-ink-muted/50 pl-2 sm:pl-3 md:pl-4 my-1.5 sm:my-2 leading-relaxed">
           {section.quote}
         </blockquote>
       )}
@@ -43,7 +43,7 @@ function SectionBlock({ section }: { section: Section }) {
       {section.subBullets?.map((sb, i) => (
         <div key={i} className="mt-1.5 sm:mt-2 ml-1 sm:ml-2">
           {sb.label && (
-            <p className="font-serif text-[11px] sm:text-xs md:text-sm font-medium text-ink mb-0.5 sm:mb-1 leading-tight">
+            <p className="text-[11px] sm:text-xs md:text-sm font-medium text-ink mb-0.5 sm:mb-1 leading-tight">
               {sb.label}
             </p>
           )}
@@ -81,7 +81,7 @@ export default function PageContent({
             {dayLabel}
           </p>
           {venue && (
-            <p className="font-serif text-[9px] sm:text-[10px] md:text-xs text-ink-muted mt-0.5">{venue}</p>
+            <p className="text-[9px] sm:text-[10px] md:text-xs text-ink-muted mt-0.5">{venue}</p>
           )}
         </div>
       )}

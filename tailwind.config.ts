@@ -9,6 +9,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
+        sans: ["var(--font-dm-sans)", "system-ui", "-apple-system", "BlinkMacSystemFont", "sans-serif"],
         serif: ["var(--font-cormorant)", "Georgia", "serif"],
         accent: ["var(--font-dm-sans)", "system-ui", "sans-serif"],
       },
