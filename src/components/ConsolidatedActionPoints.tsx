@@ -122,8 +122,33 @@ export default function ConsolidatedActionPoints() {
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-12">
-      {/* Consolidated Action Points Section */}
+      {/* Consolidated Takeaways Section */}
       <div className="mb-12">
+        {/* Header */}
+        <div className="bg-gradient-to-r from-gray-800 to-gray-900 rounded-xl shadow-lg p-6 md:p-8 mb-8 text-white">
+          <h2 className="font-serif text-2xl md:text-3xl font-bold mb-2">
+            BMG – Consolidated Takeaways
+          </h2>
+        </div>
+
+        {/* Takeaways Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          {takeaways.map((takeaway, i) => (
+            <div
+              key={i}
+              className="bg-white rounded-xl shadow-md border border-gray-200 p-6 md:p-8 hover:shadow-lg transition-shadow duration-200"
+            >
+              <p className="text-sm md:text-base text-gray-700 leading-relaxed flex items-start">
+                <span className="text-blue-600 mr-3 mt-1 font-bold">{i + 1}.</span>
+                <span>{takeaway}</span>
+              </p>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      {/* Consolidated Action Points Section */}
+      <div>
         {/* Header */}
         <div className="bg-gradient-to-r from-gray-800 to-gray-900 rounded-xl shadow-lg p-6 md:p-8 mb-8 text-white">
           <h2 className="font-serif text-2xl md:text-3xl font-bold mb-2">
@@ -163,31 +188,6 @@ export default function ConsolidatedActionPoints() {
             Think Big. Execute with Discipline. Control the Funnel. Lead with AI. Strengthen
             Relationships. Win as One Team.
           </p>
-        </div>
-      </div>
-
-      {/* Consolidated Takeaways Section */}
-      <div>
-        {/* Header */}
-        <div className="bg-gradient-to-r from-gray-800 to-gray-900 rounded-xl shadow-lg p-6 md:p-8 mb-8 text-white">
-          <h2 className="font-serif text-2xl md:text-3xl font-bold mb-2">
-            BMG – Consolidated Takeaways
-          </h2>
-        </div>
-
-        {/* Takeaways Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          {takeaways.map((takeaway, i) => (
-            <div
-              key={i}
-              className="bg-white rounded-xl shadow-md border border-gray-200 p-6 md:p-8 hover:shadow-lg transition-shadow duration-200"
-            >
-              <p className="text-sm md:text-base text-gray-700 leading-relaxed flex items-start">
-                <span className="text-blue-600 mr-3 mt-1 font-bold">{i + 1}.</span>
-                <span>{takeaway}</span>
-              </p>
-            </div>
-          ))}
         </div>
       </div>
     </div>
