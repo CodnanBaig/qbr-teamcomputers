@@ -76,3 +76,10 @@ All notable changes to the TDE-BMG Website project are documented here.
 - `src/components/DaySection.tsx` – Day content + media layout component
 - `src/components/MediaGallery.tsx` – Image/video grid component
 - `src/components/SectionBlock.tsx` – Individual section renderer component
+
+## [0.10.0] - 2025-02-16
+
+### Changed
+
+- **v0.10.0-content-update** – Updated `src/data/qbr.ts` to match updated `shrishti.txt` content exactly. Day 1 title changed to "TDE-BMG  – Day 1" (with double space), opening text updated from "Quarterly Business Review" to "Business Review", and content structure reorganized to match source file exactly.
+- **v0.10.0-hero-mountain** – Added mountain landscape image to Hero component using Unsplash. Hero now displays a full-width mountain background image with overlay for text readability. Image uses Next.js Image component with proper optimization and responsive sizing.
