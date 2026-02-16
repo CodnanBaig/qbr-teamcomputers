@@ -22,15 +22,15 @@ export default function MediaGallery({
   return (
     <div className="space-y-6">
       {images.length > 0 && (
-        <div>
-          <h3 className="text-sm font-semibold text-gray-600 mb-3 uppercase tracking-wide">
-            Photos
+        <div className="bg-white rounded-xl shadow-md border border-gray-200 p-5 md:p-6">
+          <h3 className="text-base md:text-lg font-bold text-gray-900 mb-4 pb-2 border-b-2 border-gray-200">
+            📸 Photos
           </h3>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             {images.map((file, i) => (
               <div
                 key={i}
-                className="relative aspect-[4/3] rounded-lg overflow-hidden bg-gray-100"
+                className="relative aspect-[4/3] rounded-lg overflow-hidden bg-gray-100 shadow-md hover:shadow-lg transition-shadow duration-200"
               >
                 <Image
                   src={mediaSrc(folder, file)}
@@ -45,19 +45,20 @@ export default function MediaGallery({
         </div>
       )}
       {videos.length > 0 && (
-        <div>
-          <h3 className="text-sm font-semibold text-gray-600 mb-3 uppercase tracking-wide">
-            Videos
+        <div className="bg-white rounded-xl shadow-md border border-gray-200 p-5 md:p-6">
+          <h3 className="text-base md:text-lg font-bold text-gray-900 mb-4 pb-2 border-b-2 border-gray-200">
+            🎥 Videos
           </h3>
-          <div className="grid grid-cols-1 gap-3">
+          <div className="grid grid-cols-1 gap-4">
             {videos.map((file, i) => (
               <div
                 key={i}
-                className="relative aspect-video rounded-lg overflow-hidden bg-gray-100"
+                className="relative aspect-video rounded-lg overflow-hidden bg-gray-100 shadow-md hover:shadow-lg transition-shadow duration-200"
               >
                 <video
                   src={mediaSrc(folder, file)}
                   controls
+                  muted
                   playsInline
                   preload="metadata"
                   className="w-full h-full object-cover"
