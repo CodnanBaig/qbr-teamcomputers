@@ -26,7 +26,7 @@ export const qbrData: QBRData = {
             "Success is not about size, but about commitment and discipline.",
             '"Prove yourself to yourself."',
           ],
-          quote: '"Gyaan tab hai jab paisa ho" — knowledge must convert into financial outcomes.',
+          quote: '"Don\'t be a philosopher or a teacher without being rich" or "First become rich, then become a philosopher," - SRK',
           subBullets: [
             {
               label: "A reminder inspired by Shah Rukh Khan's quote:",
